@@ -16,42 +16,196 @@
           }
         }
       ],
-      "status": "pending",
+      "status": "fazendo",
       "dateEntry": "2022-03-05 15:14:10",
       "dateProcessed": "2022-03-05 15:14:10"
+    },
+    {
+      "userId": "4",
+      "client": "lara",
+      "table": "123",
+      "products": [
+        {
+          "qty": 1,
+          "product": {
+            "id": 10,
+            "name": "hambúrguer duplo",
+            "price": 15,
+            "image": "https://i.pinimg.com/564x/79/33/f5/7933f51f9a917e5aedd86a425fbb5950.jpg",
+            "type": "almoco"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 12,
+            "name": "anéis de cebola",
+            "price": 5,
+            "image": "https://i.pinimg.com/750x/d7/d6/63/d7d6638bf4ba5824b7836e115bb727ce.jpg",
+            "type": "almoco"
+          }
+        }
+      ],
+      "status": "fazendo",
+      "dateEntry": "2023-10-05T12:49:12.359Z",
+      "dateProcessed": "2023-10-05T12:49:12.359Z",
+      "id": 2
+    },
+    {
+      "userId": "4",
+      "client": "coisa",
+      "table": "111",
+      "products": [
+        {
+          "qty": 1,
+          "product": {
+            "id": 9,
+            "name": "hambúrguer simples",
+            "price": 10,
+            "image": "https://i.pinimg.com/750x/6d/b0/a4/6db0a41699fc4f90276b8ff8ead202a1.jpg",
+            "type": "almoco"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 13,
+            "name": "agua sem gás",
+            "price": 5,
+            "image": "https://i.pinimg.com/564x/8f/b4/5a/8fb45ae976a39edc6910b5d3e272d3f4.jpg",
+            "type": "almoco"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 5,
+            "name": "café com leite",
+            "price": 7,
+            "image": "https://i.pinimg.com/750x/2b/52/b0/2b52b0fd154265b758fb129f79e9126a.jpg",
+            "type": "cafedamanha"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 7,
+            "name": "sanduíche",
+            "price": 10,
+            "image": "https://i.pinimg.com/750x/92/01/a1/9201a1ce469406032f4cfb8d384140a5.jpg",
+            "type": "cafedamanha"
+          }
+        }
+      ],
+      "status": "fazendo",
+      "dateEntry": "2023-10-05T13:43:32.501Z",
+      "dateProcessed": "2023-10-05T13:43:32.501Z",
+      "id": 3
+    },
+    {
+      "userId": "4",
+      "client": "coisa",
+      "table": "33",
+      "products": [
+        {
+          "qty": 1,
+          "product": {
+            "id": 5,
+            "name": "café com leite",
+            "price": 7,
+            "image": "https://i.pinimg.com/750x/2b/52/b0/2b52b0fd154265b758fb129f79e9126a.jpg",
+            "type": "cafedamanha"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 8,
+            "name": "suco de fruta",
+            "price": 7,
+            "image": "https://i.pinimg.com/564x/c1/72/e0/c172e02e00b47bcb19942b9f81028a27.jpg",
+            "type": "cafedamanha"
+          }
+        }
+      ],
+      "status": "fazendo",
+      "dateEntry": "2023-10-05T16:41:45.458Z",
+      "dateProcessed": "2023-10-05T16:41:45.458Z",
+      "id": 4
     }
   ],
   "products": [
     {
-      "id": 1,
-      "name": "Sandwich de jamón y queso",
-      "price": 1000,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
-      "type": "Desayuno",
-      "dateEntry": "2022-03-05 15:14:10"
+      "name": "café com leite",
+      "details": "xícara 180 ml",
+      "price": 7,
+      "image": "https://i.pinimg.com/750x/2b/52/b0/2b52b0fd154265b758fb129f79e9126a.jpg",
+      "type": "cafedamanha",
+      "id": 5
     },
     {
-      "id": 2,
-      "name": "Café americano",
-      "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
-      "type": "Desayuno",
-      "dateEntry": "2022-03-05 15:14:10"
+      "name": "café americano",
+      "details": "xícara 180 ml",
+      "price": 5,
+      "image": "https://i.pinimg.com/750x/71/63/ff/7163ff251a02e5b99a4eb82dad3ff66b.jpg",
+      "type": "cafedamanha",
+      "id": 6
     },
     {
-      "id": 3,
-      "name": "Agua 500ml",
-      "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
-      "type": "Almuerzo",
-      "dateEntry": "2022-03-05 15:14:10"
+      "name": "sanduíche",
+      "details": "presunto e queijo",
+      "price": 10,
+      "image": "https://i.pinimg.com/750x/92/01/a1/9201a1ce469406032f4cfb8d384140a5.jpg",
+      "type": "cafedamanha",
+      "id": 7
     },
     {
-      "name": "Agua 500ml",
-      "price": 500,
-      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
-      "type": "Almuerzo",
-      "id": 4
+      "name": "suco de fruta",
+      "details": "copo 300ml",
+      "price": 7,
+      "image": "https://i.pinimg.com/564x/c1/72/e0/c172e02e00b47bcb19942b9f81028a27.jpg",
+      "type": "cafedamanha",
+      "id": 8
+    },
+    {
+      "name": "hambúrguer simples",
+      "details": "pão, carne e queijo",
+      "price": 10,
+      "image": "https://i.pinimg.com/750x/6d/b0/a4/6db0a41699fc4f90276b8ff8ead202a1.jpg",
+      "type": "almoco",
+      "id": 9
+    },
+    {
+      "name": "hambúrguer duplo",
+      "details": "pão, 2 carne e queijo",
+      "price": 15,
+      "image": "https://i.pinimg.com/564x/79/33/f5/7933f51f9a917e5aedd86a425fbb5950.jpg",
+      "type": "almoco",
+      "id": 10
+    },
+    {
+      "name": "batata frita",
+      "details": "200g",
+      "price": 5,
+      "image": "https://i.pinimg.com/750x/74/36/a6/7436a6f77b991fc05b964333c1f7e344.jpg",
+      "type": "almoco",
+      "id": 11
+    },
+    {
+      "name": "anéis de cebola",
+      "details": "200g",
+      "price": 5,
+      "image": "https://i.pinimg.com/750x/d7/d6/63/d7d6638bf4ba5824b7836e115bb727ce.jpg",
+      "type": "almoco",
+      "id": 12
+    },
+    {
+      "name": "agua sem gás",
+      "details": "500ml",
+      "price": 5,
+      "image": "https://i.pinimg.com/564x/8f/b4/5a/8fb45ae976a39edc6910b5d3e272d3f4.jpg",
+      "type": "almoco",
+      "id": 13
     }
   ],
   "users": [
@@ -66,6 +220,12 @@
       "password": "$2a$10$aNL29GPxbiR.ZYVQvyHwiuJcEORuKUk4of3v2cqeO/yovr6Ucocte",
       "role": "admin",
       "id": 6
+    },
+    {
+      "email": "cozinha@fritokas.com",
+      "password": "$2a$10$aDrLpV6YmEQfRz58E8eYQ.fzRWPAA30K/DqNQBQP7vDND50PTkcOK",
+      "id": 7,
+      "role": "kitchen"
     }
   ]
 }
